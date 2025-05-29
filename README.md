@@ -2,20 +2,32 @@
 
 
 🎁 1. struct Node
+
          Defines the structure of each node in the doubly linked list.
+         
          data: holds the actual value.
+         
          prev: points to the previous node.
+         
          next: points to the next node.
+         
 
 🎁 2. Node* head = NULL;
+
      Global pointer that always points to the first node in the list.
+     
      If it's NULL, the list is empty.
 
 🎁 3. insertAtPosition(int data, int position)
+
       Inserts a node with the given data at a specified position (1-based index).
+      
    Handles:
+   
          Inserting at the beginning (position 1).
+         
          Inserting between nodes.
+         
         Displays an error if the position is invalid.
 
 ✅ 4. insertAtBeginning(int data)
